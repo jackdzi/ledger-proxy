@@ -1,0 +1,6 @@
+# Copy to cards.txt and list your cards. cards.txt is gitignored.
+# Card name exactly as iOS reports it = ledger account.
+# Credit cards → Liabilities:  (you owe)   Debit cards → Assets:  (your money)
+
+Apple Card  = Liabilities:AppleCard
+Chase Debit = Assets:Checking

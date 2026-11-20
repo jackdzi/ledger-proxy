@@ -1,0 +1,30 @@
+# secrets: DATABASE_URL, TAP_TOKEN, ADMIN_PASSWORD, etc.
+.env
+*.env
+!*.example.env
+
+# your real cards and bank accounts (reveal which banks you use)
+cards.txt
+cards.txt.*
+bank_accounts.txt
+
+# SimpleFIN access URL (contains the credentials)
+simplefin_access_url
+
+# TLS certificates, the ACME account key and the tunnel CA (private keys)
+certs/
+tunnel-pki/
+*.pem
+*.key
+
+# database dumps hold real transactions
+*.sql.gz
+backup-*.sql
+
+# build output
+/bin/
+/ledger-proxy
+/edge/edge
+/edge/agent/agent
+/edge/tunnelcerts/tunnelcerts
+/edge/bench/tmp/
